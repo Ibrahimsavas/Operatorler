@@ -65,14 +65,42 @@ namespace Operatorler
             #region Karşılaştırma öperatörleri
 
             //Karşılaştırma operatörleri her zaman boolean veri döndürür
-            int sayi = 22;
+            //int sayi = 22;
 
-            Console.Write("Sayı 10 dan büyük mü = ");
+            //Console.Write("Sayı 10 dan büyük mü = ");
+            //Console.WriteLine(sayi > 10);
+            //Console.Write("Sayı 10 dan küçük mü = ");
+            //Console.WriteLine(sayi < 10);
+            //Console.Write("Sayı 10 a eşit mi = ");
+            //Console.WriteLine(sayi == 10);
+
+            #endregion
+
+
+            
+            #region Mantıksal operatörler
+
+
+            //Mantıksal operatörler ve vaya komutlarına ihtiyaç duduğumuzda kullanılır
+            //Genellikle karşılaştırma operatörleri ile birlikte kullanılır
+            //boolean veri türleri ile koşulları çığaltmak veya aynı koşula birden çok değişken eklemek i.in tercih edilir
+
+
+            int sayi = 15;
+
+            //Sayı değişkeni içindeki veri 10 ile 20 arasında mı ?
+            Console.Write("Sayı = ");
+            Console.WriteLine(sayi);
+            Console.Write("10'dan büyük mü = ");
             Console.WriteLine(sayi > 10);
-            Console.Write("Sayı 10 dan küçük mü = ");
-            Console.WriteLine(sayi < 10);
-            Console.Write("Sayı 10 a eşit mi = ");
-            Console.WriteLine(sayi == 10);
+            Console.Write("sayi 20'den küçük mü = ");
+            Console.WriteLine(sayi < 20);
+
+            Console.Write("Sayı 10 ile 20 arasında mı = ");
+            Console.WriteLine(sayi >10 && sayi < 20);
+
+
+
 
             #endregion
         }
